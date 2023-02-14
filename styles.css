@@ -1,0 +1,36 @@
+
+.header{
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+
+}
+
+.logo{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.menu{
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 18px;
+}
+
+.mid-head{
+    display: flex;
+}
+.eagle{
+    height: 250px;
+    width: 250px;
+}
+
+a{
+    color: #fff;
+}
