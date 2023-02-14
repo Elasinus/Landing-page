@@ -8,8 +8,8 @@
 }
 
 .logo{
-    color: #fff;
-    font-size: 32px;
+    color: #f9faf8;
+    font-size: 24px;
     font-weight: 900;
     font-style: italic;
 }
@@ -17,7 +17,6 @@
 .menu{
     display: flex;
     align-self: flex-end;
-    text-decoration: none;
     list-style-type: none;
     gap: 18px;
 }
@@ -25,21 +24,101 @@
 .mid-head{
     background: #1f2937;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .introduction{
-    height: 0px;
-    width: 400px;
+    height: 450px;
+    width: 300px;
+    text-align: justify;
+    margin-left: 5cm;
+    color: #fff;
+
 }
-.eagle{
-    height: 250px;
-    width: 350px;
-    margin-top: 20px;
+.introduction h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
-a{
+.introduction p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.doggo{
+    height: 250px;
+    width: 500px;
+    margin: 85px 100px 0px 0px;
+
+}
+
+.button{
+    background-color: #3882f6;
     color: #fff;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.illustration{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog{
+    max-width:250px;
+    height: 150px;
+    border: 1px rgb(4, 57, 182) solid;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text{
+    text-align: center;
+    gap: 18px;
+    padding-left: 15px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    height: 300px;
+    width: auto;
+    padding-top: 50px;
+}
+
+.author{
+    text-align: end;
+}
+
+.notification{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color:#E5E7EB;
+    font-size: 36px;
+    margin:50px 200px 20px 200px;
+    border-radius: 15px;
+    height: 170px;
 }
