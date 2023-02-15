@@ -122,3 +122,11 @@
     border-radius: 15px;
     height: 170px;
 }
+
+.footer{
+    text-align: center;
+    background: #1f2937;
+    color: #fff;
+    height: 75px;
+    padding-top: 25px;
+}
